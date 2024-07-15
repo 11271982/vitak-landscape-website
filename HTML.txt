@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitak Lawn and Landscape</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #000000;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header img {
+            height: 80px;
+        }
+        nav {
+            text-align: center;
+            background-color: #32CD32;
+            padding: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+        }
+        .services, .contact, .gallery, .testimonials {
+            margin: 20px 0;
+        }
+        .services h2, .contact h2, .gallery h2, .testimonials h2 {
+            color: #32CD32;
+        }
+        .cta {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .cta a {
+            background-color: #32CD32;
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #000000;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+        footer a {
+            color: #32CD32;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Vitak Lawn and Landscape Logo">
+        <h1>Vitak Lawn and Landscape</h1>
+    </header>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#testimonials">Testimonials</a>
+    </nav>
+    <div class="container">
+        <section id="services" class="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Retaining Walls</li>
+                <li>Paver Patios</li>
+                <li>Landscape Design</li>
+                <li>Block Walls</li>
+                <li>Boulder Walls</li>
+                <li>Grading</li>
+                <li>Sod</li>
+                <li>Artificial Turf</li>
+            </ul>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <p>Phone: <a href="tel:3202671565">(320) 267-1565</a></p>
+            <p>Email: <a href="mailto:info@vitaklandscape.com">info@vitaklandscape.com</a></p>
+            <p>Address: Sauk Rapids, Minnesota</p>
+            <p>Business Hours: Monday - Friday, 7:30 AM - 7:00 PM</p>
+        </section>
+        <section id="gallery" class="gallery">
+            <h2>Gallery</h2>
+            <p>Check out our work!</p>
+            <!-- Add images of your projects here -->
+        </section>
+        <section id="testimonials" class="testimonials">
+            <h2>Customer Testimonials</h2>
+            <p>Read what our customers are saying about us on <a href="https://www.google.com/search?q=Vitak+Lawn+and+Landscape">Google Business</a>, <a href="https://www.homeadvisor.com/rated.VitakLawnandLandscape.">Home Advisor</a>, and <a href="https://www.thumbtack.com/biz/vitak-lawn-and-landscape">Thumbtack</a>.</p>
+        </section>
+        <div class="cta">
+            <a href="contact.html">Get a Quote</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Vitak Lawn and Landscape | Follow us on 
+            <a href="https://www.facebook.com/VitakLawnandLandscape">Facebook</a>, 
+            <a href="https://www.thumbtack.com/biz/vitak-lawn-and-landscape">Thumbtack</a>, 
+            <a href="https://www.homeadvisor.com/rated.VitakLawnandLandscape.">Home Advisor</a>
+        </p>
+    </footer>
+</body>
+</html>
